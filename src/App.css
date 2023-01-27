@@ -1,4 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
+  text-align: start;
+  padding: 30px;
+}
+
+h1 {
   text-align: center;
 }
 
+ol {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 3000px;
+  width: 100%;
+  font-size: 1.1em;
+  margin: 20px 0;
+  padding: 0 20px;
+  align-content: space-around;
+  gap: 5px
+}
